@@ -1,0 +1,64 @@
+{
+  "jerseys": [
+    {
+      "id": 1,
+      "team": "Manchester United",
+      "season": "2023/2024",
+      "player": "Rashford",
+      "number": 10,
+      "price": 1300,
+      "availability": true,
+      "image": "https://sportswardrobe.co.ke/wp-content/uploads/2020/09/MAN-U-HOME-2.jpg"
+    },
+    {
+      "id": 2,
+      "team": "Real Madrid",
+      "season": "2023/2024",
+      "player": "Vinicious Jr",
+      "number": 7,
+      "price": 1200,
+      "availability": true,
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUZR2Q4mVyeCn56P7IpgQjMTR7-T82sqmP8Xl7cWIhiIvwJyXw85EIdvEL4XGo7begmZMtDWO_7dX3HovqqQ7GZjptkzBruHlj4mJpr3-zFYUl1F914C9kuG8mkUfwJJvtl4Jcj7kYn926O9tlednxA5qA0rjZA-EqZiYs0GOSFF8-2_vxjGW1C0Tn/s1600/real-madrid-23-24-home-kit-17.jpg"
+    },
+    {
+      "id": 3,
+      "team": "Barcelona",
+      "season": "2023/2024",
+      "player": "Pedri",
+      "number": 8,
+      "price": 1000,
+      "availability": false,
+      "image": "https://sportswardrobe.co.ke/wp-content/uploads/2020/10/barce2a.jpg"
+    },
+    {
+      "id": 4,
+      "team": "Liverpool",
+      "season": "2023/2024",
+      "player": "Salah",
+      "number": 11,
+      "price": 1250,
+      "availability": true,
+      "image": "https://zealevince.com/wp-content/uploads/2023/06/Liverpool-Away-Jersey-23-24-Season-Premium-scaled.jpg"
+    },
+    {
+      "id": 4,
+      "team": "Chelsea",
+      "season": "2023/2024",
+      "player": "Enzo",
+      "number": 5,
+      "price": 1400,
+      "availability": true,
+      "image": "https://sbprostorage02v2.blob.core.windows.net/media/132636/chelsea-tab-min.jpg"
+    },
+    {
+      "team": "manchester united",
+      "season": "2023/2024",
+      "player": "rashford",
+      "number": 5,
+      "price": 2000,
+      "availability": true,
+      "image": " http://localhost:3000/shoes",
+      "id": 5
+    }
+  ]
+}

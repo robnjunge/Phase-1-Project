@@ -3,7 +3,7 @@
     {
       "id": 1,
       "team": "Manchester United",
-      "season": "2023/2024",
+      "season": "2023/24",
       "player": "Rashford",
       "number": 10,
       "price": 1300,
@@ -13,17 +13,17 @@
     {
       "id": 2,
       "team": "Real Madrid",
-      "season": "2023/2024",
+      "season": "2023/24",
       "player": "Vinicious Jr",
       "number": 7,
       "price": 1200,
       "availability": true,
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUZR2Q4mVyeCn56P7IpgQjMTR7-T82sqmP8Xl7cWIhiIvwJyXw85EIdvEL4XGo7begmZMtDWO_7dX3HovqqQ7GZjptkzBruHlj4mJpr3-zFYUl1F914C9kuG8mkUfwJJvtl4Jcj7kYn926O9tlednxA5qA0rjZA-EqZiYs0GOSFF8-2_vxjGW1C0Tn/s1600/real-madrid-23-24-home-kit-17.jpg"
+      "image": "https://us.shop.realmadrid.com/cdn/shop/products/RMCFMZ0127_01_d781b028-431e-4873-8f38-38da5667e766.jpg?v=1685896857"
     },
     {
       "id": 3,
       "team": "Barcelona",
-      "season": "2023/2024",
+      "season": "2023/24",
       "player": "Pedri",
       "number": 8,
       "price": 1000,
@@ -33,32 +33,92 @@
     {
       "id": 4,
       "team": "Liverpool",
-      "season": "2023/2024",
+      "season": "2023/24 Away Kit",
       "player": "Salah",
       "number": 11,
       "price": 1250,
       "availability": true,
-      "image": "https://zealevince.com/wp-content/uploads/2023/06/Liverpool-Away-Jersey-23-24-Season-Premium-scaled.jpg"
+      "image": "https://www.sportsdirect.com/images/imgzoom/37/37747901_xxl.jpg"
     },
     {
-      "id": 4,
+      "id": 5,
       "team": "Chelsea",
-      "season": "2023/2024",
+      "season": "2023/24",
       "player": "Enzo",
       "number": 5,
       "price": 1400,
       "availability": true,
-      "image": "https://sbprostorage02v2.blob.core.windows.net/media/132636/chelsea-tab-min.jpg"
+      "image": "https://thumblr.uniid.it/product/242527/64da26a6baeb.jpg"
     },
     {
-      "team": "manchester united",
-      "season": "2023/2024",
-      "player": "rashford",
-      "number": 5,
-      "price": 2000,
+      "team": "Arsenal",
+      "season": "2022/23",
+      "player": "Saka",
+      "number": 7,
+      "price": 1000,
       "availability": true,
-      "image": " http://localhost:3000/shoes",
-      "id": 5
+      "image": "https://skygarden.azureedge.net/media/products/1556965-440c938c31af47199fa0f3e0e9f8a6c4.jpg",
+      "id": 6
+    },
+    {
+      "team": "Inter Miami",
+      "season": "2023/24",
+      "player": "Messi",
+      "number": 10,
+      "price": 1500,
+      "availability": true,
+      "image": "https://arenajerseys.com/wp-content/uploads/2023/06/download-11.webp",
+      "id": 7
+    },
+    {
+      "team": "Manchester City",
+      "season": "2023/24",
+      "player": "Haaland",
+      "number": 9,
+      "price": 1200,
+      "availability": true,
+      "image": "https://images.footballfanatics.com/manchester-city/mens-puma-sky-blue-manchester-city-2023/24-home-replica-jersey_ss5_p-200172433+pv-2+u-9zurdefkkpm0ooi0f2i0+v-eyepzmimvunahmpmyx4q.jpg?_hv=2&w=900",
+      "id": 8
+    },
+    {
+      "team": "Crystal Palace",
+      "season": "2023/24",
+      "player": "Olise",
+      "number": 7,
+      "price": 1100,
+      "availability": false,
+      "image": "https://cf.ijersey.ru/upload/ttmall/img/20220718/05c3e2a8233737bcf66145cbdc80b7fe.png",
+      "id": 9
+    },
+    {
+      "team": "Paris St. Germain",
+      "season": "2023/24",
+      "player": "Mbappe",
+      "number": 11,
+      "price": 1250,
+      "availability": true,
+      "image": "https://media.karousell.com/media/photos/products/2023/2/12/psg_training_kit_2223_paris_sa_1676218872_3738dcf1_progressive.jpg",
+      "id": 10
+    },
+    {
+      "team": "Brazil",
+      "season": "Worldcup",
+      "player": "Neymar",
+      "number": 10,
+      "price": 1200,
+      "availability": true,
+      "image": "https://www.soccerbox.com/media/catalog/product/cache/e5c18d5f608fefb2b3ef83fcb1922b34/b/r/brazil-home-shirt-2022-23.jpg",
+      "id": 11
+    },
+    {
+      "team": "Ajax",
+      "season": "2023/24",
+      "player": "Alvarez",
+      "number": 6,
+      "price": 1250,
+      "availability": true,
+      "image": "https://footballandvintageamsterdam.com/wp-content/uploads/2023/01/IMG_0397.jpg",
+      "id": 12
     }
   ]
 }

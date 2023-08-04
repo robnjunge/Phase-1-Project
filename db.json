@@ -21,6 +21,16 @@
       "image": "https://us.shop.realmadrid.com/cdn/shop/products/RMCFMZ0127_01_d781b028-431e-4873-8f38-38da5667e766.jpg?v=1685896857"
     },
     {
+      "team": "Ajax",
+      "season": "2023/24",
+      "player": "Alvarez",
+      "number": 6,
+      "price": 1250,
+      "availability": true,
+      "image": "https://footballandvintageamsterdam.com/wp-content/uploads/2022/11/IMG_6620-scaled.jpg",
+      "id": 12
+    },
+    {
       "id": 3,
       "team": "Barcelona",
       "season": "2023/24",
@@ -111,14 +121,14 @@
       "id": 11
     },
     {
-      "team": "Ajax",
+      "team": "PSG",
       "season": "2023/24",
-      "player": "Alvarez",
-      "number": 6,
-      "price": 1250,
+      "player": "Asensio",
+      "number": 7,
+      "price": 1400,
       "availability": true,
-      "image": "https://footballandvintageamsterdam.com/wp-content/uploads/2023/01/IMG_0397.jpg",
-      "id": 12
+      "image": "https://media.foot-store.com/catalog/product/cache/image/1800x/9df78eab33525d08d6e5fb8d27136e95/n/i/nike_dx2693-101-phsfh001_xx.jpg",
+      "id": 13
     }
   ]
 }

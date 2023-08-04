@@ -2,36 +2,20 @@ document.addEventListener('DOMContentLoaded', function () {
     fetchData();
     const jerseyForm = document.getElementById('jerseyForm');
     jerseyForm.addEventListener('submit', handleFormSubmit);
-    const deleteBtn = document.getElementById('deleteBtn');
-    deleteBtn.addEventListener('click', deleteData);
-
 });
+
 function fetchData() {
     fetch("http://localhost:3000/jerseys")
         .then(response => response.json())
         .then(data => {
             console.log(data);
 
-            const teamNames = data.map(jersey => ({
-                team: jersey.team,
-                season: jersey.season,
-                player: jersey.player,
-                number: jersey.number,
-                price: jersey.price,
-                availability: jersey.availability,
-                image: jersey.image,
-
-            })
-            );
-            console.log(teamNames);
-
             const container = document.getElementById("container");
-            teamNames.forEach(jersey => {
+            container.innerHTML = ""; 
 
-
-                const jerseyContainer = document.createElement("div")
-                jerseyContainer.classList.add("jersey")
-
+            data.forEach(jersey => {
+                const jerseyContainer = document.createElement("div");
+                jerseyContainer.classList.add("jersey");
 
                 const team = document.createElement("h1");
                 team.textContent = jersey.team;
@@ -54,21 +38,24 @@ function fetchData() {
                 const image = document.createElement("img");
                 image.src = jersey.image;
 
+                const deleteButton = document.createElement("button");
+                deleteButton.textContent = "Delete";
+                deleteButton.addEventListener("click", () => deleteData(jersey.id));
 
-                jerseyContainer.appendChild(team)
-                jerseyContainer.appendChild(player)
-                jerseyContainer.appendChild(season)
-                jerseyContainer.appendChild(number)
-                jerseyContainer.appendChild(availability)
-                jerseyContainer.appendChild(image)
-                jerseyContainer.appendChild(price)
-
+                jerseyContainer.appendChild(team);
+                jerseyContainer.appendChild(player);
+                jerseyContainer.appendChild(season);
+                jerseyContainer.appendChild(number);
+                jerseyContainer.appendChild(availability);
+                jerseyContainer.appendChild(image);
+                jerseyContainer.appendChild(price);
+                jerseyContainer.appendChild(deleteButton);
 
                 container.appendChild(jerseyContainer);
             });
-        })
-
+        });
 }
+
 function handleFormSubmit(event) {
     event.preventDefault();
 
@@ -95,13 +82,11 @@ function handleFormSubmit(event) {
             console.log('POST request successful:', data);
             fetchData();
             form.reset();
-        })
-    
+        });
 }
-function deleteData() {
-    const itemIdToDelete = 1;
 
-    fetch(`http://localhost:3000/jerseys/${itemIdToDelete}`, {
+function deleteData(jerseyId) {
+    fetch(`http://localhost:3000/jerseys/${jerseyId}`, {
         method: 'DELETE',
         headers: {
             'Content-Type': 'application/json'
@@ -114,6 +99,5 @@ function deleteData() {
             } else {
                 console.error('DELETE request failed:', response.status, response.statusText);
             }
-        })
-     
+        });
 }

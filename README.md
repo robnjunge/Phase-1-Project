@@ -15,7 +15,7 @@ node.</li> <li>Have json-server installed on your computer.<br> Use <a
 href="https://www.npmjs.com/package/json-server">this</a> to get instructions on
 how to install json-server.</li> <li>Use any code editor that has similar or
 more capability to <a href="https://code.visualstudio.com/">VS code</a>.<br>I
-recommend you use VS code editor with the <a></a></li> </ul> 
+recommend you use VS code editor<a></a></li> </ul> 
 <br> 
 <h3> Running the project </h3>
 <ul> <li>Fork

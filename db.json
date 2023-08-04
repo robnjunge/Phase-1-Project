@@ -91,16 +91,6 @@
       "id": 8
     },
     {
-      "team": "Crystal Palace",
-      "season": "2023/24",
-      "player": "Olise",
-      "number": 7,
-      "price": 1100,
-      "availability": false,
-      "image": "https://cf.ijersey.ru/upload/ttmall/img/20220718/05c3e2a8233737bcf66145cbdc80b7fe.png",
-      "id": 9
-    },
-    {
       "team": "Paris St. Germain",
       "season": "2023/24",
       "player": "Mbappe",

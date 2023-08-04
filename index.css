@@ -3,6 +3,63 @@
   flex-wrap: wrap;
   gap: 20px;
 }
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links a {
+  color: #26db50;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-links a:hover {
+  color: #ffc107;
+}
+
+.navbar-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  cursor: pointer;
+}
+
+.navbar-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .navbar-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: #343a40;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      padding: 10px 20px;
+      z-index: 1;
+  }
+
+  .navbar.active .navbar-links {
+      display: flex;
+  }
+
+  .navbar-toggle {
+      display: flex;
+  }
+}
 
 .jersey {
   display: flex;

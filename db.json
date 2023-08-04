@@ -109,6 +109,16 @@
       "availability": true,
       "image": "https://www.soccerbox.com/media/catalog/product/cache/e5c18d5f608fefb2b3ef83fcb1922b34/b/r/brazil-home-shirt-2022-23.jpg",
       "id": 11
+    },
+    {
+      "team": "Atletico Madrid",
+      "season": "2023/24",
+      "player": "Griezmann",
+      "number": 11,
+      "price": 1200,
+      "availability": true,
+      "image": "https://www.voetbalshirtjes.com/wp-content/uploads/2018/08/Atletico-Madrid-uitshirt-2018-Champions-League.jpg",
+      "id": 13
     }
   ]
 }

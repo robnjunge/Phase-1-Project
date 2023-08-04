@@ -109,16 +109,6 @@
       "availability": true,
       "image": "https://www.soccerbox.com/media/catalog/product/cache/e5c18d5f608fefb2b3ef83fcb1922b34/b/r/brazil-home-shirt-2022-23.jpg",
       "id": 11
-    },
-    {
-      "team": "PSG",
-      "season": "2023/24",
-      "player": "Asensio",
-      "number": 7,
-      "price": 1400,
-      "availability": true,
-      "image": "https://media.foot-store.com/catalog/product/cache/image/1800x/9df78eab33525d08d6e5fb8d27136e95/n/i/nike_dx2693-101-phsfh001_xx.jpg",
-      "id": 13
     }
   ]
 }

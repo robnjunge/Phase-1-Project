@@ -5,7 +5,7 @@
 }
 .navbar-links {
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }
 
 .navbar-links a {
